@@ -4,7 +4,7 @@ use nutrition;
 
 create table if not exists thai_rdi (
 	-- version
-	version int primary key,
+	version varchar(4) primary key,
     
     -- main nutrient
     total_fat varchar(64),
